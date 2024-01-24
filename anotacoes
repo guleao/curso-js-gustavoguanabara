@@ -48,3 +48,11 @@ getElementsByClassName()
 
 innerText = puxa só o texto.
 innerHTML = Puxa tudo, até as tags.
+
+Aula 10 :
+mouseenter -> Mouse entra na div
+mousemove -> Mexer o mouse dentro da div
+mousedown -> Clicar e segurar na div
+mouseup -> Soltar o mouse depois de ter segura
+click -> clickar na div
+mouseout -> tirar o mouse da div
