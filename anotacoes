@@ -56,3 +56,15 @@ mousedown -> Clicar e segurar na div
 mouseup -> Soltar o mouse depois de ter segura
 click -> clickar na div
 mouseout -> tirar o mouse da div
+
+Event Reference -> Site que mostra os eventos possíveis em javascript.
+
+Oque é uma função? ->
+Um conjunto de códigos que vão ser executados quando o evento ocorrer.
+
+Exemplo:
+{} -> Oque está dentro das chaves é o bloco, o comando a ser executado.
+
+function nomeDaAção(parametros) {
+
+}
