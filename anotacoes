@@ -15,3 +15,36 @@ undefined.
 object.
 - Array.
 function.
+
+Operadores pt1 : Ok.
+Operadores pt2 : Ok.
+Todos os operadores estão no Obsidian e no caderno preto, testei todos no NodeJS como indicado na aula.
+
+Oque é DOM: ( Aula 9 )
+Document Object Model
+
+DOM é um conjunto de objetos dentro do navegador que irá dar acesso aos componentes internos do site.
+
+Árvore DOM:
+
+Raiz = window ( janela )
+location document history (Exemplo)
+
+Document -> HTML -> Head / Body.
+Pai -> Filho -> Neto.
+
+SELECIONANDO NA DOM:
+por Marca ->
+getElementsByTagName()
+
+por ID ->
+getElementById()
+
+por Nome ->
+getElementsByName()
+
+por Classe ->
+getElementsByClassName()
+
+innerText = puxa só o texto.
+innerHTML = Puxa tudo, até as tags.
