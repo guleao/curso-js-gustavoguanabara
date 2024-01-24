@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Você é estrangeiro ou brasileiro?</h1>
+    Digite seu pais de origem: <input type="text" id="pais"> 
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+        R:
+    </div>
+    <script>
+        var pais = document.getElementById("pais")
+        var res = document.getElementById("res")
+
+        function verificar() {
+            
+            var conf = String(pais.value)
+
+            if(conf === 'Brasil'){
+                res.innerHTML += `Você mora no ${conf}, então você é Brasileiro!`
+            } else {
+                res.innerHTML += `Voce mora no ${conf}, então você é estrangeiro!`
+            }
+        }
+    </script>   
+</body>
+</html>
