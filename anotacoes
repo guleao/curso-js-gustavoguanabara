@@ -1,0 +1,17 @@
+Tipos de variáveis : ( Aula 05 )
+
+5 18 -12 0.5 = Tipo number.
+Valores Internos:
+- Infinity.
+- NaN.
+
+"Google" 'Maria' = Tipo string.
+
+true e false =  Tipo boolean.
+
+Tipos primitivos:
+null.
+undefined.
+object.
+- Array.
+function.
