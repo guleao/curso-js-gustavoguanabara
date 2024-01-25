@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador - Aplicativo</title>
+    <link rel="stylesheet" href="/ModuloE/exercicio4/ex018.css">
+
+</head>
+<body onload="carregar()">
+    
+    <header class="centralizar">
+        <h1>Vamos contar</h1>
+    </header>
+    <section class="centralizar" >
+        <div id="msg" class="centralizar">
+            Digite a quantidade que você irá contar
+        </div>
+
+        <div class="centralizar">
+            <p>
+                Inicio <input type="number" name="inicio" id="inicio"><br>
+                Final: <input type="number" name="final" id="final"><br>
+                Passo <input type="number" name="passo" id="passo">
+            </p>
+        </div> 
+
+        <div class="centralizar">
+            <input class="ajustebotao" type="button" value="Contar" onclick="contar()">
+        </div>
+
+        <div class="centralizar" id="res">
+            Preparando contagem...
+        </div>
+    </section>
+    <footer class="centralizar">
+        @guztavus
+    </footer>
+    
+    <script src="ex018.js"></script>
+</body>
+</html>

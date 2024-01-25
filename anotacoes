@@ -72,11 +72,16 @@ function nomeDaAção(parametros) {
 
 Repetições Modulo E (Aula 13) -
 
+Fiz na faculdade C, é os mesmos conceitos.
+
+Testa no inicio - 
+Enquanto:
 while(condição) {
      
 }
 
-
+Testa no final -
+Fazer enquanto:
 do { 
 
 } while(condição.)
