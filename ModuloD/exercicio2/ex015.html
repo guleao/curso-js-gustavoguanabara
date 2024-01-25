@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="/ModuloD/exercicio2/ex015.css">
+</head>
+<body>
+    <header class="centralizar">
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section class="centralizar">
+        <div>
+            <p class="centralizar">Ano de nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+
+            <p class="centralizar">Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p class="centralizar">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+
+            <div id="res" class="espacamento">
+                Preencha os dados acima para ver o resultado!
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="centralizar">
+        @guztavuz
+    </footer>
+
+
+    <script src="ex015.js"></script>
+</body>
+</html>
