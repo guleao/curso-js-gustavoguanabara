@@ -1,1 +1,13 @@
+Próximos passos para continuar estudando Javascript:
 
+functions ( Existem muitas formas de manipular funções )
+
+Objetos.
+
+Modularização ( Usar arquivos separados para conseguir reutilizar códigos.)
+
+RegEx ( Expressões regulares, estudar essa peça)
+
+JSON ( Estruturas de objetos para transmitir dados e salvar localmente )
+
+AJAX ( Estudar AJAX )
