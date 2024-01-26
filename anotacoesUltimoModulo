@@ -2,3 +2,10 @@ Variáveis compostas:
 
 Vetor - elemento que contém valor e chave.
 
+Funções :
+
+São ações executadas assim que são CHAMADAS ou em decorrência de algum
+EVENTO.
+
+Uma função pode receber parâmetros e retornar um resultado.
+
